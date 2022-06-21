@@ -1,38 +1,43 @@
-.App {
+body {
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+h1 {
   text-align: center;
+  display: block;
+  padding-left: 38px;
+  margin: 10px auto;
+  font-size: 50px;
+  font-family: "PT MONO", monospace;
+  color: rgb(35, 26, 114);
+  text-shadow: 1px 1px 2px #000000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  text-align: center;
+  display: block;
+  padding-left: auto auto;
+  margin: 10px auto;
+  font-size: 20px;
+  font-family: "PT MONO", monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p,
+ul {
+  text-align: center;
+  font-family: "PT MONO", monospace;
+  font-size: 15px;
+  color: rgb(35, 26, 114);
+  padding-left: 40px;
+  margin-bottom: 10px;
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form {
+  text-align: center;
+  display: block;
 }

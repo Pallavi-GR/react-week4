@@ -1,6 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+// not being used now
+//add future code here
 function App() {
   return (
     <div className="App">
